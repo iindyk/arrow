@@ -49,7 +49,7 @@
 #include "arrow/util/make_unique.h"
 #include "arrow/visitor_inline.h"
 
-#include "generated/feather_generated.h"
+#include "arrow/ipc/feather_generated.h"
 
 namespace arrow {
 

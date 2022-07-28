@@ -38,9 +38,9 @@
 #include "arrow/util/macros.h"
 #include "arrow/util/visibility.h"
 
-#include "generated/Message_generated.h"
-#include "generated/Schema_generated.h"
-#include "generated/SparseTensor_generated.h"  // IWYU pragma: keep
+#include "arrow/ipc/Message_generated.h"
+#include "arrow/ipc/Schema_generated.h"
+#include "arrow/ipc/SparseTensor_generated.h"  // IWYU pragma: keep
 
 namespace arrow {
 

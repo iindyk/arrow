@@ -37,7 +37,7 @@
 #include "arrow/util/logging.h"
 #include "arrow/util/ubsan.h"
 
-#include "generated/Message_generated.h"
+#include "arrow/ipc/Message_generated.h"
 
 namespace arrow {
 
