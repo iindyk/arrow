@@ -43,6 +43,9 @@
 #cmakedefine ARROW_JSON
 
 #cmakedefine ARROW_S3
+
+#ifdef __SIZEOF_INT128__
 #cmakedefine ARROW_USE_NATIVE_INT128
+#endif
 
 #cmakedefine GRPCPP_PP_INCLUDE
